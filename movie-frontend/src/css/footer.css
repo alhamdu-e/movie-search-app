@@ -1,0 +1,38 @@
+.footer-grid {
+	border-top: 1px solid rgb(92, 92, 92);
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding: 0rem 6rem;
+	padding-top: 10rem;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	height: 15rem;
+	align-items: center;
+}
+.main-info {
+	font-size: 2rem;
+	text-transform: capitalize;
+	margin-bottom: 1rem;
+	color: rgb(228, 228, 228);
+}
+ul li a {
+	font-size: 1.8rem;
+	color: rgb(185, 180, 180);
+	text-transform: capitalize;
+}
+.copyright {
+	margin-top: 8rem;
+	font-size: 1.6rem;
+	color: rgb(151, 151, 151);
+}
+.year {
+	font-size: 1.6rem;
+}
+.footer {
+	padding-bottom: 2rem;
+	text-align: center;
+}

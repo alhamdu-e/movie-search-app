@@ -1,0 +1,83 @@
+.grid-how {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-left: 10rem;
+	margin-right: 10rem;
+	column-gap: 5rem;
+}
+.grid-how img {
+	width: 100%;
+	height: 55%;
+	filter: brightness(90%) grayscale(20%);
+	margin-bottom: 2rem;
+}
+.howitworks {
+	background-image: linear-gradient(
+			90deg,
+			rgba(18, 0, 36, 0.808) 89%,
+			rgba(2, 0, 36, 0.801) 98%,
+			rgba(18, 0, 36, 0.801) 100%
+		),
+		url("../../public/images/how.jpg");
+	background-size: cover;
+	text-align: center;
+}
+.step {
+	background: linear-gradient(
+		90deg,
+		rgba(20, 1, 32, 1) 96%,
+		rgba(20, 1, 32, 0.9808298319327731) 100%,
+		rgba(20, 1, 32, 1) 100%
+	);
+
+	padding: 0 2rem;
+	border-radius: 12px;
+	box-shadow: 0 0 0 4px rgba(49, 49, 49, 0.76);
+	margin-bottom: 9.6rem;
+}
+.works {
+	font-size: 1.8rem;
+	margin-bottom: 3rem;
+	text-transform: capitalize;
+	color: #fab005;
+}
+.works-motivatin {
+	font-size: 2.8rem;
+	margin-bottom: 10rem;
+	color: rgb(223, 223, 223);
+}
+.desc {
+	text-align: left;
+}
+.desc p {
+	color: rgb(201, 201, 201);
+}
+.numbers {
+	color: rgb(196, 196, 196);
+	margin-bottom: 1rem;
+	font-size: 2.4rem;
+	font-weight: 600;
+}
+.get {
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 2rem;
+	display: inline-block;
+	margin-bottom: 12rem;
+	padding: 1.5rem 2rem;
+	background-color: #eeeeee;
+	border-radius: 12px;
+	color: #111 !important;
+	font-weight: 600;
+	transition: all 0.3s;
+}
+.get:hover {
+	background-color: #c0c0c0;
+	box-shadow: 0 0 0 4px #a1e4ec;
+}
+.expreience {
+	margin-top: 8rem;
+	margin-bottom: 7rem;
+	font-size: 3.2rem;
+	color: rgb(230, 230, 230);
+}

@@ -1,0 +1,133 @@
+.movie-search {
+	background-image: linear-gradient(
+			90deg,
+			rgba(18, 0, 36, 0.808) 89%,
+			rgba(2, 0, 36, 0.801) 98%,
+			rgba(18, 0, 36, 0.801) 100%
+		),
+		url("../../public/images/how.jpg");
+	background-size: cover;
+}
+.serach-nav {
+	display: grid;
+	grid-gap: 5rem;
+	grid-template-columns: 30fr 70fr 20fr;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	padding-top: 3rem;
+}
+.search-text {
+	width: 70%;
+	padding: 1rem 0rem 1rem 1rem;
+	border-radius: 20px;
+	font-size: 1.8rem;
+	background-color: #eeeeee;
+}
+.search-text:focus {
+	outline: none;
+}
+.btn-serach {
+	border: none;
+	font-size: 2.6rem;
+	border-radius: 10px;
+	text-align: center;
+	background-color: transparent;
+	cursor: pointer;
+	margin-left: -5rem;
+	transform: translateY(8px);
+	color: #9b9292;
+}
+.btn-logout {
+	background-color: transparent;
+	font-size: 1.6rem;
+	border: none;
+	color: rgb(204, 204, 204);
+	cursor: pointer;
+}
+.footer-cont {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	margin-top: 250px;
+}
+.pagination {
+	width: 30rem;
+	display: flex;
+	justify-content: space-between;
+}
+.btn-pagination {
+	border: none;
+	background-color: transparent;
+	color: #c7c2c2;
+	font-weight: 700;
+	font-size: 1.6rem;
+	position: relative;
+	left: 90rem;
+	cursor: pointer;
+}
+.active {
+	background-color: #eeeeee;
+	border-radius: 5px;
+	padding: 0.7rem 1.2rem;
+	color: black;
+}
+.motivater {
+	font-size: 3.2rem;
+	text-align: center;
+}
+.next {
+	color: rgb(236, 235, 235);
+}
+.catagoris-container {
+	display: flex;
+	justify-content: space-between;
+}
+.select {
+	font-size: 1.6rem;
+	color: rgb(211, 209, 209);
+	background: linear-gradient(
+		90deg,
+		rgba(18, 0, 36, 0.808) 89%,
+		rgba(2, 0, 36, 0.801) 98%,
+		rgba(18, 0, 36, 0.801) 100%
+	);
+	padding: 0.5rem 1rem;
+}
+option {
+	background-color: black;
+}
+.center {
+	position: relative;
+	top: 200px;
+	left: 20%;
+	width: fit-content;
+	text-align: center;
+}
+.cen {
+	position: relative;
+	top: 200px;
+	left: 40%;
+	width: fit-content;
+	text-align: center;
+}
+.acc {
+	color: #353131;
+	font-size: 3.2rem;
+}
+.accc {
+	font-size: 2rem;
+	padding: 0.5rem 1rem;
+	background-color: #353131;
+	color: white;
+	border-radius: 9px;
+}
+.ac {
+	font-size: 3.6rem;
+}
+.ac span {
+	color: orange;
+}

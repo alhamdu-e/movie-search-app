@@ -1,0 +1,117 @@
+.login {
+	background-image: linear-gradient(
+			90deg,
+			rgba(18, 0, 36, 0.808) 89%,
+			rgba(2, 0, 36, 0.801) 98%,
+			rgba(18, 0, 36, 0.801) 100%
+		),
+		url("../../public/images/how.jpg");
+	background-size: cover;
+
+	padding-left: 2rem;
+}
+.form {
+	margin-bottom: 4rem;
+	display: flex;
+	height: 30rem;
+	justify-content: space-between;
+	flex-direction: column;
+}
+ul::marker,
+li::marker {
+	content: none;
+}
+.form-cont {
+	width: 40rem;
+	margin: 0 auto;
+	text-align: center;
+	background: linear-gradient(
+		90deg,
+		rgba(18, 0, 36, 0.897) 89%,
+		rgba(2, 0, 36, 0.884) 98%,
+		rgba(18, 0, 36, 0.89) 100%
+	);
+	padding: 1rem 3rem;
+	margin-bottom: 5rem;
+	box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.062);
+}
+.icon {
+	font-size: 13rem;
+	margin-bottom: 5rem;
+	color: #c2c2c2;
+}
+.input {
+	padding: 0rem 1.2rem 0.5rem 1.2rem;
+	font-size: 1.8rem;
+	font-family: inherit;
+	border: none;
+	width: 70%;
+	background: linear-gradient(
+		90deg,
+		rgba(18, 0, 36, 0.897) 89%,
+		rgba(2, 0, 36, 0.884) 98%,
+		rgba(18, 0, 36, 0.89) 100%
+	);
+	border-bottom: 1px solid rgb(207, 201, 201);
+	color: rgb(240, 240, 240);
+	font-family: 500;
+}
+.input::placeholder {
+	font-weight: 500;
+	font-family: inherit;
+	font-size: 1.8rem;
+	color: #aaa;
+	text-transform: capitalize;
+}
+
+.input:focus {
+	outline: none;
+}
+#inputField.filled {
+	border-color: black; /* Change border color to green when the field is filled */
+}
+.in-icon {
+	font-size: 2.8rem;
+	transform: translateY(14px);
+}
+.login-btn {
+	border: none;
+	cursor: pointer;
+	padding: 1.3rem 5rem;
+	font-size: 2rem;
+	font-weight: 600;
+	border-radius: 12px;
+	background-color: #b4b4b4;
+	width: 70%;
+}
+.login-btn:hover {
+	background-color: #dfdcdc;
+}
+.forget {
+	display: inline-block;
+	color: rgb(223, 218, 218);
+	font-size: 1.5rem;
+	text-transform: capitalize;
+	margin-bottom: 2rem;
+	backface-visibility: hidden;
+}
+h5 {
+	font-size: 1.4rem;
+	color: #aaa;
+}
+.create {
+	font-size: 1.4rem;
+	color: rgb(245, 163, 12);
+	transition: all 0.5s;
+}
+.create:hover {
+	border-bottom: 1px solid rgb(165, 165, 165);
+}
+.forget:hover {
+	border-bottom: 1px solid rgb(165, 165, 165);
+	color: rgb(255, 250, 250);
+	backface-visibility: hidden;
+}
+.logo-lin {
+	transform: translateY(2.5rem);
+}
